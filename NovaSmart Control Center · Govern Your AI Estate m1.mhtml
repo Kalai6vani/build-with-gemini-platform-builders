@@ -1,0 +1,1793 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://storage.googleapis.com/bwg-track2-fsi-demo-guide/lab_instructions.html
+Subject: =?utf-8?Q?NovaSmart=20Control=20Center=20=C2=B7=20Govern=20Your=20AI=20Es?=
+ =?utf-8?Q?tate?=
+Date: Wed, 23 Sep 2026 06:57:35 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--wgVuQ6TqkHq9APqV8pNqxfKQVUsx974YNEBwGcCBk1----"
+
+
+------MultipartBoundary--wgVuQ6TqkHq9APqV8pNqxfKQVUsx974YNEBwGcCBk1----
+Content-Type: text/html
+Content-ID: <frame-835CB3C2CE99D7EEB3E3611FB65CB1C4@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://storage.googleapis.com/bwg-track2-fsi-demo-guide/lab_instructions.html
+
+<!DOCTYPE html><html lang=3D"en" style=3D"--accent: #1967d2; --accent-ink: =
+#174ea6; --accent-050: #e8f0fe; --accent-border: #d2e3fc;"><head><meta http=
+-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D=
+"stylesheet" type=3D"text/css" href=3D"cid:css-97b2ad57-9cb0-4bd9-b283-4ba6=
+8317cfe0@mhtml.blink" />
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>NovaSmart Control Center =C2=B7 Govern Your AI Estate</title>
+<!--
+  BwG Track 2 =E2=80=94 "Govern Your AI Estate: Your First Week as Global H=
+ead of AI"
+  Variant 1: "Console Classic" =E2=80=94 3-column Cloud-Console layout (lef=
+t step-nav / center content / right scoreboard).
+  Reusable data-driven SHELL + mission switcher (M1 full =C2=B7 M2/M3/M5 pl=
+aceholders) + badge/gamification layer.
+  Self-contained: all CSS + JS inline. No backend/build/npm/libraries. Work=
+s via file:// and sandboxed iframe.
+  Vanilla JS + inline SVG + system fonts only.
+-->
+
+</head>
+<body>
+
+<header class=3D"topbar">
+  <div class=3D"brand">
+    <span class=3D"logo" aria-hidden=3D"true"><svg viewBox=3D"0 0 24 24" fi=
+ll=3D"currentColor"><path d=3D"M12 2l2.6 6.8L21 11l-6.4 2.2L12 20l-2.6-6.8L=
+3 11l6.4-2.2L12 2Z"></path></svg></span>
+    <div>
+      <div class=3D"title">NovaSmart Control Center</div>
+      <div class=3D"sub">BwG Track 2 =C2=B7 Head of AI Platform &amp; Secur=
+ity</div>
+    </div>
+  </div>
+  <div class=3D"spacer"></div>
+  <div class=3D"switcher" id=3D"switcher" role=3D"tablist" aria-label=3D"Mi=
+ssion switcher"><button class=3D"mtab" type=3D"button" role=3D"tab" data-mc=
+ode=3D"M0" title=3D"M0 =C2=B7 See Everything" aria-selected=3D"false"><span=
+ class=3D"mt-ic"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"current=
+Color" stroke-width=3D"2"><rect x=3D"3" y=3D"3" width=3D"18" height=3D"18" =
+rx=3D"2"></rect><path d=3D"M3 9h18M9 21V9"></path></svg></span>M0</button><=
+button class=3D"mtab active" type=3D"button" role=3D"tab" data-mcode=3D"M1"=
+ title=3D"M1 =C2=B7 Take Action" aria-selected=3D"true"><span class=3D"mt-i=
+c"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-=
+width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M=
+14.7 6.3a4 4 0 01-5.4 5.4L4 17v3h3l5.3-5.3a4 4 0 015.4-5.4l-2.6 2.6-2-2 2.6=
+-2.6z"></path></svg></span>M1</button><button class=3D"mtab" type=3D"button=
+" role=3D"tab" data-mcode=3D"M2" title=3D"M2 =C2=B7 Control the Connections=
+" aria-selected=3D"false"><span class=3D"mt-ic"><svg viewBox=3D"0 0 24 24" =
+fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><path d=3D"M14 7l-=
+5 5 5 5M10 7l5 5-5 5"></path></svg></span>M2</button><button class=3D"mtab"=
+ type=3D"button" role=3D"tab" data-mcode=3D"M3" title=3D"M3 =C2=B7 Protect =
+the Content" aria-selected=3D"false"><span class=3D"mt-ic"><svg viewBox=3D"=
+0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-=
+linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M12 2l7 3v6c0 4.4-3 =
+8.5-7 9-4-.5-7-4.6-7-9V5l7-3z"></path><path d=3D"M9.5 12l1.8 1.8L15 10"></p=
+ath></svg></span>M3</button><button class=3D"mtab" type=3D"button" role=3D"=
+tab" data-mcode=3D"M4" title=3D"M4 =C2=B7 Observe the Trajectory" aria-sele=
+cted=3D"false"><span class=3D"mt-ic"><svg viewBox=3D"0 0 24 24" fill=3D"non=
+e" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round"><cir=
+cle cx=3D"11" cy=3D"11" r=3D"7"></circle><path d=3D"M21 21l-4-4"></path></s=
+vg></span>M4</button><button class=3D"mtab" type=3D"button" role=3D"tab" da=
+ta-mcode=3D"M5" title=3D"M5 =C2=B7 Evaluate and Decide" aria-selected=3D"fa=
+lse"><span class=3D"mt-ic"><svg viewBox=3D"0 0 24 24" fill=3D"currentColor"=
+><path d=3D"M13 2 4 14h6l-1 8 9-12h-6l1-8Z"></path></svg></span>M5</button>=
+</div>
+  <span class=3D"mission-chip" id=3D"missionChip"><span class=3D"dot"></spa=
+n> M1 =C2=B7 Take Action</span>
+</header>
+
+<div class=3D"app">
+  <aside class=3D"rail-left">
+    <nav class=3D"nav-card" aria-label=3D"Mission steps">
+      <div class=3D"nav-head">
+        <div class=3D"kicker" id=3D"navKicker">Mission M1</div>
+        <div class=3D"h" id=3D"navSub">Give each agent its own identity</di=
+v>
+      </div>
+      <div class=3D"progress-wrap" style=3D"display: none;">
+        <div class=3D"progress-row"><span>Progress</span><span id=3D"progre=
+ssPct">25%</span></div>
+        <div class=3D"progress-track"><div class=3D"progress-fill" id=3D"pr=
+ogressFill" style=3D"width: 25%;"></div></div>
+      </div>
+      <ul class=3D"steps" id=3D"steps"><li class=3D"step" data-ctxidx=3D"0"=
+ role=3D"button" tabindex=3D"0" aria-label=3D"M1 =C2=B7 Take Action =E2=80=
+=94 Reference Guide"><span class=3D"marker"><span class=3D"num">1</span></s=
+pan><span class=3D"label"><span class=3D"t">M1 =C2=B7 Take Action =E2=80=94=
+ Reference Guide</span></span></li><li class=3D"step" data-ctxidx=3D"1" rol=
+e=3D"button" tabindex=3D"0" aria-label=3D"Working with agy in this mission"=
+><span class=3D"marker"><span class=3D"num">2</span></span><span class=3D"l=
+abel"><span class=3D"t">Working with agy in this mission</span></span></li>=
+<li class=3D"step" data-ctxidx=3D"2" role=3D"button" tabindex=3D"0" aria-la=
+bel=3D"Step 1 =C2=B7 Register the shadow agent"><span class=3D"marker"><spa=
+n class=3D"num">3</span></span><span class=3D"label"><span class=3D"t">Step=
+ 1 =C2=B7 Register the shadow agent</span></span></li><li class=3D"step" da=
+ta-ctxidx=3D"3" role=3D"button" tabindex=3D"0" aria-label=3D"Step 2 =C2=B7 =
+Give each agent its own login, with only what it needs"><span class=3D"mark=
+er"><span class=3D"num">4</span></span><span class=3D"label"><span class=3D=
+"t">Step 2 =C2=B7 Give each agent its own login, with only what it needs</s=
+pan></span></li><li class=3D"step" data-ctxidx=3D"4" role=3D"button" tabind=
+ex=3D"0" aria-label=3D"Step 3 =C2=B7 Prove it worked"><span class=3D"marker=
+"><span class=3D"num">5</span></span><span class=3D"label"><span class=3D"t=
+">Step 3 =C2=B7 Prove it worked</span></span></li><li class=3D"step" data-c=
+txidx=3D"5" role=3D"button" tabindex=3D"0" aria-label=3D"What you just did"=
+><span class=3D"marker"><span class=3D"num">6</span></span><span class=3D"l=
+abel"><span class=3D"t">What you just did</span></span></li></ul>
+    </nav>
+
+    <!-- Step Badges (Positioned under Mission Steps) -->
+    <div class=3D"trophy-card step-badges-card">
+      <div class=3D"trophy-head">
+        <h3><span class=3D"ic" aria-hidden=3D"true" id=3D"trophyIcon"><svg =
+viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D=
+"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M8 4h8v5a=
+4 4 0 01-8 0V4zM8 6H4v2a3 3 0 003 3M16 6h4v2a3 3 0 01-3 3M9 20h6M10 16h4v4h=
+-4z"></path></svg></span> Step Badges</h3>
+        <span class=3D"badge-count" id=3D"badgeCount">Badges 2 / 5</span>
+      </div>
+      <div class=3D"medal-grid" id=3D"medalGrid"><div class=3D"medallion ea=
+rned pop" data-idx=3D"0" title=3D"Separate the shared login"><span class=3D=
+"shine"></span><span class=3D"disc"><svg viewBox=3D"0 0 24 24" fill=3D"none=
+" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" strok=
+e-linejoin=3D"round"><circle cx=3D"12" cy=3D"12" r=3D"9"></circle><path d=
+=3D"M16 8l-2 6-6 2 2-6 6-2z"></path></svg></span><span class=3D"mname">Sepa=
+rate the shared login</span></div><div class=3D"medallion earned pop" data-=
+idx=3D"1" title=3D"Catalogue and own the shadow agent"><span class=3D"shine=
+"></span><span class=3D"disc"><svg viewBox=3D"0 0 24 24" fill=3D"none" stro=
+ke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-line=
+join=3D"round"><path d=3D"M14.7 6.3a4 4 0 01-5.4 5.4L4 17v3h3l5.3-5.3a4 4 0=
+ 015.4-5.4l-2.6 2.6-2-2 2.6-2.6z"></path></svg></span><span class=3D"mname"=
+>Catalogue and own the shadow agent</span></div><div class=3D"medallion" da=
+ta-idx=3D"2" title=3D"Stop the bad reads without breaking the good agent"><=
+span class=3D"shine"></span><span class=3D"disc"><svg viewBox=3D"0 0 24 24"=
+ fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D=
+"round"><circle cx=3D"11" cy=3D"11" r=3D"7"></circle><path d=3D"M21 21l-4-4=
+"></path></svg></span><span class=3D"mname">Stop the bad reads without brea=
+king the good agent</span></div><div class=3D"medallion" data-idx=3D"3" tit=
+le=3D"Verify M1 identity controls &amp; generate Mission Scorecard"><span c=
+lass=3D"shine"></span><span class=3D"disc"><svg viewBox=3D"0 0 24 24" fill=
+=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"roun=
+d" stroke-linejoin=3D"round"><path d=3D"M12 2l7 3v6c0 4.4-3 8.5-7 9-4-.5-7-=
+4.6-7-9V5l7-3z"></path><path d=3D"M9.5 12l1.8 1.8L15 10"></path></svg></spa=
+n><span class=3D"mname">Verify M1 identity controls &amp; generate Mission =
+Scorecard</span></div><div class=3D"medallion" data-idx=3D"4" title=3D"Badg=
+e 4"><span class=3D"shine"></span><span class=3D"disc"><svg viewBox=3D"0 0 =
+24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-line=
+cap=3D"round" stroke-linejoin=3D"round"><circle cx=3D"12" cy=3D"15" r=3D"6"=
+></circle><path d=3D"M12 12v6M9.5 15h5M8 3l4 6 4-6"></path></svg></span><sp=
+an class=3D"mname">Badge 4</span></div></div>
+    </div>
+  </aside>
+
+  <div class=3D"main-col">
+    <div class=3D"viewtabs" id=3D"viewtabs" role=3D"tablist" aria-label=3D"=
+Mission view">
+      <button class=3D"vtab" type=3D"button" role=3D"tab" id=3D"vtabInstruc=
+tions" aria-selected=3D"false" aria-controls=3D"main" data-view=3D"instruct=
+ions"><span class=3D"ic" aria-hidden=3D"true" id=3D"vtabIcoI"><svg viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><pa=
+th d=3D"M4 6h16M4 12h16M4 18h16"></path></svg></span> Instructions</button>
+      <button class=3D"vtab active" type=3D"button" role=3D"tab" id=3D"vtab=
+Context" aria-selected=3D"true" aria-controls=3D"ctxMain" data-view=3D"cont=
+ext"><span class=3D"ic" aria-hidden=3D"true" id=3D"vtabIcoC"><svg viewBox=
+=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2" str=
+oke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M9 18h6M10 21h4M=
+12 3a6 6 0 00-4 10c.7.7 1 1.3 1 2h6c0-.7.3-1.3 1-2a6 6 0 00-4-10z"></path><=
+/svg></span> Reference Guide</button>
+    </div>
+   =20
+    <div class=3D"ctxdoc" id=3D"ctxMain" role=3D"tabpanel" aria-labelledby=
+=3D"vtabContext"><section class=3D"section is-active" data-ctx=3D"0" id=3D"=
+ctxsec0"><div class=3D"sec-head"><h2>M1 =C2=B7 Take Action =E2=80=94 Refere=
+nce Guide</h2></div><div class=3D"prose"><p>The sections below match the st=
+eps on the Instructions tab. Dip into a Step section whenever the Instructi=
+ons tab points you here =E2=80=94 but read <em>Working with agy in this mis=
+sion</em> first, because M1 is the point where agy stops looking and starts=
+ changing things.</p></div></section><section class=3D"section is-active" d=
+ata-ctx=3D"1" id=3D"ctxsec1"><div class=3D"sec-head"><h2>Working with agy i=
+n this mission</h2></div><div class=3D"prose"><p>M0 only looked. Every step=
+ listed, compared and reported, and nothing in your environment changed. M1=
+ is the opposite. From here on, agy is making real changes to a real cloud =
+project.</p><p>The rhythm is the same as before, with one difference that m=
+atters.</p><ul><li>You state what you want in plain English, the way you wo=
+uld brief a competent colleague. No commands, no syntax, no cloud jargon.</=
+li><li>agy tells you what it is about to do, in a line or two you can actua=
+lly read.</li><li>Then it does it. It does not stop and wait. In this lab a=
+gy runs at full speed, so the work happens as soon as you ask for it.</li><=
+li>It comes back with the real evidence: the actual catalog entry, the actu=
+al log line, the actual configuration. Not an opinion, and not a summary yo=
+u have to take on trust.</li><li>It leaves a record of exactly what changed=
+ and how to undo it. You can say "undo that" or "roll that back" at any poi=
+nt, including after the fact.</li><li>Longer jobs run in the background and=
+ it keeps you posted. Normal store traffic keeps flowing throughout.</li></=
+ul><p>That combination =E2=80=94 very capable, very fast, no pause =E2=80=
+=94 is worth sitting with, because it is how these assistants behave in a r=
+eal organisation. An assistant that can reshape your cloud from a single pl=
+ain-English sentence is only as safe as your habit of looking at what it is=
+ about to do.</p><p>Which means the pause is yours to create. You create it=
+ by asking to be shown what something can do before you let it be changed, =
+and then actually reading that answer instead of skipping to the result. Th=
+at is exactly what the first half of Step 2 is for =E2=80=94 the readout ar=
+rives before the fix does, in the same answer =E2=80=94 and it is the most =
+transferable thing in this mission. Everything else here is mechanics. That=
+ habit is the skill.</p><p>One last thing before you start: order matters h=
+ere. The three fixes run in a deliberate sequence, and doing them out of or=
+der would break a working agent. The sections below say why.</p><h3>The thr=
+ee surfaces you are working with</h3><p>Everything you touch in this lab ru=
+ns on the Gemini Enterprise Agent Platform, and three of its parts carry th=
+e governance you are putting in place. Agent Registry is the catalog =E2=80=
+=94 what you run, and who owns it. Agent Identity is the per-agent badge =
+=E2=80=94 who acted. Agent Gateway governs the connections =E2=80=94 which =
+agent may reach which agent or tool. M1 is the first two. The third is M2.<=
+/p></div></section><section class=3D"section is-active" data-ctx=3D"2" id=
+=3D"ctxsec2"><div class=3D"sec-head"><h2>Step 1 =C2=B7 Register the shadow =
+agent</h2></div><div class=3D"prose"><h3>The leadership call: own it, don't=
+ kill it</h3><p>At the end of M0 you had a choice. Shut the promo agent dow=
+n, or bring it under an owner.</p><p>Shutting it down is fast and feels dec=
+isive. It is also the weaker answer: it breaks a marketing team that genuin=
+ely relies on the thing, and it teaches that team to build the next one eve=
+n further out of sight. Bringing it under an owner fixes the same risk in t=
+he open, without breaking the business.</p><p>So: own it, don't kill it. St=
+ep 1 is the first half of carrying that out.</p><h3>What registering actual=
+ly does</h3><p>Registering the promo agent writes it into the Agent Registr=
+y =E2=80=94 the official catalog of what you run =E2=80=94 with three thing=
+s attached to it.</p></div><div class=3D"table-wrap"><div class=3D"table-ba=
+r"><span class=3D"ic"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"cu=
+rrentColor" stroke-width=3D"2"><path d=3D"M4 6h16M4 12h16M4 18h16"></path><=
+/svg></span></div><div class=3D"table-scroll"><table class=3D"log"><thead><=
+tr><th>What gets recorded</th><th>Why it matters</th></tr></thead><tbody><t=
+r><td>A name and a description of what it is</td><td>It stops being "some s=
+ervice on Cloud Run" and becomes a known part of the estate</td></tr><tr><t=
+d>An owner: the marketing-ops team</td><td>There is now a named team that a=
+nswers for what it costs and what it reaches</td></tr><tr><td>A risk tier: =
+high, because it touches customer data</td><td>Risk tier drives how often i=
+t gets reviewed and how much scrutiny a change to it gets</td></tr></tbody>=
+</table></div></div><div class=3D"prose"><p>Its tools are registered alongs=
+ide it, which matters more than it sounds. The promo agent has exactly one =
+tool, and that tool extracts customer records. Cataloguing the agent withou=
+t cataloguing what it can reach would leave you with a tidy list and the sa=
+me blind spot.</p><h3>What registering does not do</h3><p>This is the part =
+people skip, so it is worth being blunt about.</p><ul><li>The promo agent i=
+s still running. Registration does not stop it, pause it or throttle it.</l=
+i><li>It still costs whatever it was costing. Nothing about a catalog entry=
+ reduces cloud spend.</li><li>It is still signing in with the shared login =
+it was using when you found it.</li><li>It can still read your customer dat=
+abase.</li></ul><p>Registration closes exactly one of the two gaps you iden=
+tified in M0. Visibility: something is running that nobody catalogued and n=
+obody owns. That gap is now closed. Accountability =E2=80=94 a legitimate a=
+gent and this one sharing a single identity, so their actions cannot be tol=
+d apart =E2=80=94 is completely untouched, and so is the over-reach.</p><p>=
+That is not a failure of the step; it is the honest shape of it. Cataloguin=
+g a rogue workload is the first move, not the fix =E2=80=94 and it comes fi=
+rst because everything after it depends on having a named, owned thing to c=
+hange.</p></div></section><section class=3D"section is-active" data-ctx=3D"=
+3" id=3D"ctxsec3"><div class=3D"sec-head"><h2>Step 2 =C2=B7 Give each agent=
+ its own login, with only what it needs</h2></div><div class=3D"prose"><p>T=
+his step asks for three things in one request, and the order they come back=
+ in is the whole lesson. First agy reads out what the shared login can do t=
+oday. Then it gives each of the two agents an identity of its own. Then it =
+cuts the access back to what each job actually needs, which for the promo a=
+gent means no route to customer records at all.</p><h3>Read it before it is=
+ changed</h3><p>The first thing you get back is a read, not a change: what =
+can that shared login do today, and what would each agent end up with? That=
+ readout is the judgment moment of the whole mission, and it has to reach y=
+ou before anything is applied =E2=80=94 you are meant to look at the size o=
+f that login and react to it yourself, not learn about it afterwards from a=
+ summary of what was already done.</p><h3>Why you deliberately create this =
+pause</h3><p>Go back to the way agy behaves in this mission. It moves at fu=
+ll speed. If your whole request is "give each agent its own identity", the =
+identities exist a moment later, with whatever access agy inferred they nee=
+ded, and the first you see of the reasoning is an account written after the=
+ fact. That is why the request in this step opens with "show me what that s=
+hared login can do today".</p><p>Most of the time that speed is fine, and i=
+t is why these assistants are so useful. But it means that if you never ask=
+ to be shown what something can do before you ask for it to be changed, the=
+re is no gap in which a bad outcome could have been caught. Reading what is=
+ about to happen, and being willing to say "not that, something smaller", i=
+s the whole discipline =E2=80=94 and it transfers straight back to your own=
+ estate.</p><h3>How to read the answer</h3><p>Read what agy gives you slowl=
+y, line by line, rather than skimming to the end. Ask one question of every=
+ line: does this agent have more power than its job needs? Something in tha=
+t answer is far larger than it should be, and noticing it yourself is the w=
+hole point of this mission.</p><h3>The tell</h3><p>What comes back is uncom=
+fortable. The shared login, a service account called <code>novasmart-custom=
+er-sa</code>, can read, change or delete the data in any database in the en=
+tire project. Not the customer database specifically =E2=80=94 every databa=
+se the project holds. It can also read every file stored in the project. It=
+ cannot delete those files, but it can read all of them, which for anything=
+ confidential is bad enough.</p><p>Now hold that against what the two agent=
+s on that login actually do.</p></div><div class=3D"table-wrap"><div class=
+=3D"table-bar"><span class=3D"ic"><svg viewBox=3D"0 0 24 24" fill=3D"none" =
+stroke=3D"currentColor" stroke-width=3D"2"><path d=3D"M4 6h16M4 12h16M4 18h=
+16"></path></svg></span></div><div class=3D"table-scroll"><table class=3D"l=
+og"><thead><tr><th>Agent</th><th>What its job genuinely needs</th><th>What =
+the shared login gives it</th></tr></thead><tbody><tr><td>Customer Personal=
+ization Agent</td><td>Read customer records, so it can tailor offers and VI=
+P rewards</td><td>Read, change and delete the data in every database in the=
+ project, and read every stored file</td></tr><tr><td>Demand and Promotion =
+Agent, running as <code>promo-agent-shadow</code></td><td>Write promotional=
+ copy and flash-sale bundles</td><td>Read, change and delete the data in ev=
+ery database in the project, and read every stored file</td></tr></tbody></=
+table></div></div><div class=3D"prose"><p>Neither of those jobs needs to ch=
+ange a customer record. Neither needs to delete anything. And one of them h=
+as no business reading customer records at all =E2=80=94 a marketing copy g=
+enerator does not need names, emails, loyalty tiers and lifetime values to =
+write a flash-sale headline.</p><h3>Blast radius, in plain terms</h3><p>Bla=
+st radius is how much can go wrong if one agent is later tricked, misconfig=
+ured or breached. Access granted to a login is inherited by everything runn=
+ing under it, so today the blast radius of either agent is identical: the w=
+hole project. A prompt-injection attack on the promo agent, or an ordinary =
+bug in the personalization agent, reaches as far as the login does =E2=80=
+=94 and the login reaches everywhere.</p><p>Nobody did this maliciously. A =
+broad grant is the fastest way to make something work, and it never fails i=
+n testing. It is the same speed-over-governance shortcut that produced the =
+shadow agent, which is why the two problems showed up together.</p><h3>What=
+ "sized to the job" looks like</h3><p>Least privilege means each agent gets=
+ only the access its job needs, and nothing more. Applied here, that is two=
+ sentences:</p><ul><li>The Customer Personalization Agent gets read-only ac=
+cess to customer data, and only to customer data. It genuinely needs to rea=
+d those records. It never needs to change or delete one.</li><li>The promo =
+agent gets no access to customer data at all.</li></ul><p>You did not guess=
+ at that. You worked it out by comparing the job to the grant, which is exa=
+ctly what the readout exists to let you do =E2=80=94 and it is the shape to=
+ hold the rest of this step against, rather than taking agy's inference on =
+trust.</p><h3>Identity and permissions are two different questions</h3><p>I=
+dentity is <em>who is acting</em>. Permissions are <em>what they are allowe=
+d to do</em>. The two get confused constantly, and keeping them apart is wh=
+at makes this mission work: identity is fixed first and permissions second,=
+ and you cannot sensibly do it the other way round =E2=80=94 until each age=
+nt signs in as itself, there is no way to give one of them less access than=
+ the other.</p><h3>Only two agents are affected</h3><p>Be precise about the=
+ scope here, because it is easy to over-state. Four agents run at NovaSmart=
+, and two of them are already fine: the Price Match Agent and the Markdown =
+Strategy Agent each have their own identity and always did. Nothing in this=
+ step touches them.</p><p>The problem is the other two =E2=80=94 the Custom=
+er Personalization Agent and the promo agent =E2=80=94 sharing <code>novasm=
+art-customer-sa</code> between them.</p><h3>Two agents, two different mecha=
+nisms</h3><p>They also sit in different places, so the fix looks slightly d=
+ifferent for each.</p><p>The Customer Personalization Agent runs on the man=
+aged Agent Runtime, the platform's official home for agents. The platform c=
+an issue it a per-agent Agent Identity directly: a unique, tamper-proof bad=
+ge belonging to that one agent. There is no account to create and no key to=
+ leak, and from then on the database records that agent by name whenever it=
+ reads customer data.</p><p>The promo agent runs on Cloud Run, which is a g=
+eneral-purpose place to run software rather than a managed home for agents.=
+ It cannot be handed a platform-issued agent identity, so the equivalent is=
+ its own dedicated service account =E2=80=94 its own login, used by nothing=
+ else. Different plumbing, same outcome: one badge per worker, shared with =
+nobody.</p><p>You do not need the internals, but the distinction is worth n=
+oticing: it is a small, concrete example of why running things off the offi=
+cial platform costs you something later.</p><h3>Moving the badge takes the =
+keys with it</h3><p>There is a second half to the identity move that is eas=
+y to miss and expensive to skip.</p><p>The personalization agent's access t=
+o customer data was never granted to the agent. It was granted to the share=
+d login, and the agent inherited it by signing in as that login. The moment=
+ it stops using the shared login, it stops inheriting anything. It keeps ru=
+nning, it will still answer a greeting, and it will fail the first time it =
+tries to read a customer record.</p><p>So agy has to do two things, not one=
+: move the agent onto its own identity, then grant that new identity the na=
+rrow access the agent needs to do its job. Identity and permissions are two=
+ different questions, and here you can watch the difference happen.</p><p>I=
+t is worth insisting on proof. Ask to see the agent actually retrieve custo=
+mer data after the change, not just a confirmation that the identity was up=
+dated. The failure mode is quiet: the back office reports a generic server =
+error rather than saying access was denied, so a half-finished migration lo=
+oks like an unrelated outage.</p><h3>Where the estate lands</h3></div><div =
+class=3D"table-wrap"><div class=3D"table-bar"><span class=3D"ic"><svg viewB=
+ox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><=
+path d=3D"M4 6h16M4 12h16M4 18h16"></path></svg></span></div><div class=3D"=
+table-scroll"><table class=3D"log"><thead><tr><th>Agent</th><th>How it sign=
+ed in before</th><th>How it signs in now</th><th>Customer data access</th><=
+/tr></thead><tbody><tr><td>Price Match Agent</td><td>Its own agent identity=
+</td><td>Unchanged</td><td>None, and none needed</td></tr><tr><td>Markdown =
+Strategy Agent</td><td>Its own agent identity</td><td>Unchanged</td><td>Non=
+e, and none needed</td></tr><tr><td>Customer Personalization Agent</td><td>=
+Shared <code>novasmart-customer-sa</code></td><td>Its own agent identity</t=
+d><td>Read-only, customer data only</td></tr><tr><td>Demand and Promotion A=
+gent</td><td>Shared <code>novasmart-customer-sa</code></td><td>Its own dedi=
+cated service account</td><td>Removed by the cut below</td></tr></tbody></t=
+able></div></div><div class=3D"prose"><p>Re-issuing identities takes a coup=
+le of minutes. agy keeps you posted while it runs, and the work from Step 1=
+ holds. If anything looks wrong, tell agy to roll it back.</p><p>Notice wha=
+t happens to the shared login itself. Both workloads that were using it hav=
+e moved off, so it is left with no users at all. It has not merely been nar=
+rowed, it has been vacated, and an account nobody uses is an account nobody=
+ can abuse.</p><p>The payoff is quiet but total: from here on, every line i=
+n the access log names exactly one agent. In M0 you had to work out who did=
+ what by hand, cross-referencing the log against the running services. That=
+ inference is now unnecessary =E2=80=94 which is the same as saying it is n=
+ow impossible to get wrong.</p><h3>Why the cut could not have come first</h=
+3><p>In M0 the two agents were indistinguishable to the platform. Any permi=
+ssion you removed from that shared login, you removed from both. Cutting th=
+e promo agent's access would have taken the personalization agent down with=
+ it, and personalization is a legitimate service that shoppers see.</p><p>N=
+ow that each agent signs in as itself, you can act on one without touching =
+the other. That is the practical value of the identity split, and why ident=
+ity precedes permissions.</p><h3>What gets removed</h3><p>The promo agent h=
+as one tool, and that tool pulls customer records out of the database: name=
+s, email addresses, loyalty tiers, lifetime values. It does not read invent=
+ory data. It has no other tool. Removing its access to customer data theref=
+ore closes its own route to sensitive information.</p><p>There are two ways=
+ this can land, and both are correct. If an access path is still open, agy =
+removes just that access, leaves the agents that genuinely need customer da=
+ta alone, and shows you the before and after. If the identity split already=
+ closed the route when it moved the agent onto its own login, there is noth=
+ing left to take away, and agy tells you that plainly rather than manufactu=
+ring a change so the work looks busy.</p><p>The lesson is the same either w=
+ay, and it is worth stating in those terms. What matters is not that a remo=
+val happened as a separate action. What matters is that the promo agent end=
+s the mission with no route of its own to customer records, and that you ca=
+n see which action closed it.</p><h3>What keeps working</h3><ul><li>The pro=
+mo agent keeps running. It keeps writing promotional copy and flash-sale bu=
+ndles, which is what marketing actually wanted from it. What it can no long=
+er do is reach customer records under its own name.</li><li>The Customer Pe=
+rsonalization Agent keeps working, on read-only access to customer data =E2=
+=80=94 enough for its job, not enough to change or delete a record.</li><li=
+>The price-match co-pilot is entirely unaffected. Store associates notice n=
+othing.</li></ul><p>Be clear about what this step did and did not achieve. =
+It did not shut the promo agent down, and it does not reduce your cloud bil=
+l. What changed is that the agent is owned, named, and its own identity no =
+longer opens the door to data it never needed. That is the claim that will =
+hold up when somebody asks =E2=80=94 that precise claim, and not a broader =
+one.</p><p>Say what is still open, too. The agents do not reach the custome=
+r database on their own; they go through a shared tool layer that all of th=
+em call. That layer holds broad access of its own, and it does not yet chec=
+k which agent is calling it, so narrowing one agent's identity does not nar=
+row the layer underneath. This mission does not close that. Deciding who ma=
+y call what is a different control, and it is the subject of the next missi=
+on.</p></div></section><section class=3D"section is-active" data-ctx=3D"4" =
+id=3D"ctxsec4"><div class=3D"sec-head"><h2>Step 3 =C2=B7 Prove it worked</h=
+2></div><div class=3D"prose"><p>You have agy's word for all of this. That i=
+s not evidence. So you go back to the same access log you pulled in M0 and =
+read it again, this time narrowed to reads of the customer records.</p><h3>=
+What the log looks like now</h3><p>The log has the same shape it always had=
+ =E2=80=94 when it happened, what was accessed, and the login that did it =
+=E2=80=94 plus whether the request succeeded. Your timestamps will differ.<=
+/p></div><div class=3D"table-wrap"><div class=3D"table-bar"><span class=3D"=
+ic"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke=
+-width=3D"2"><path d=3D"M4 6h16M4 12h16M4 18h16"></path></svg></span></div>=
+<div class=3D"table-scroll"><table class=3D"log"><thead><tr><th>Time</th><t=
+h>What happened</th><th>Login that did it</th><th>Outcome</th></tr></thead>=
+<tbody><tr><td>14:02:11</td><td>Read a customer profile: name, email, loyal=
+ty tier, lifetime value</td><td>Customer Personalization Agent's own agent =
+identity</td><td>Allowed</td></tr><tr><td>14:03:35</td><td>Attempted to rea=
+d customer records for a promo campaign</td><td>Demand and Promotion Agent'=
+s own service account</td><td>Denied =E2=80=94 access removed</td></tr></tb=
+ody></table></div></div><div class=3D"prose"><p>Compare that to the log in =
+M0. There, two entirely different workloads =E2=80=94 a legitimate personal=
+ization request and a marketing bulk extract =E2=80=94 signed in with the s=
+ame badge, so anything either of them did reached the audit trail wearing o=
+ne identity and the platform genuinely could not tell them apart. Here they=
+ are the same two workloads, and every single row names exactly one agent.<=
+/p><p>Price Match and Markdown Strategy do not appear in these rows. Narrow=
+ed to the customer records, the log only shows the two agents that ever tou=
+ch them =E2=80=94 the other two work from competitor prices, our own stock =
+and the margin data, and never had a reason to be here.</p><p>Note what is =
+still not in the log, because it never was and never should be: there is no=
+ field where an agent announces its own name. A name a caller supplies abou=
+t itself is a claim, not evidence. The login is the identifier =E2=80=94 wh=
+ich is precisely why giving each agent its own was the fix.</p><h3>Why the =
+familiar column goes blank</h3><p>One thing in the raw log will look wrong =
+at first glance, so it is worth knowing before you see it. The column that =
+used to name the shared login is empty for the personalization agent's read=
+s. That is the fix working, not a fault.</p><p>The reason goes back to the =
+two mechanisms in Step 2. The personalization agent no longer signs in with=
+ an account that has an email address. It now carries a machine identity is=
+sued by the platform and belonging to that one agent alone, so there is not=
+hing to put in a column built for email addresses. Its name has moved to a =
+different field of the same log entry, and that field is where the proof no=
+w lives. The promo agent is the exception, and for a reason you already kno=
+w: it runs on Cloud Run and got its own dedicated service account rather th=
+an a platform-issued identity, so it still has an email address and still s=
+hows up in the familiar column.</p><p>Two mechanisms, two ways of being nam=
+ed, one outcome =E2=80=94 every read traces to exactly one agent. So read t=
+he blank for what it is. It is the shared account being gone, not attributi=
+on getting worse. If agy shows you only the email column, ask it for the fi=
+eld that carries the per-agent identity and read the proof there.</p><h3>Th=
+e denial is the proof</h3><p>The last row is the interesting one. The promo=
+ agent tried to read customer records and was refused.</p><p>Two things hap=
+pen when that occurs, and only one of them is evidence.</p><ul><li>The appl=
+ication does not even return an error. The promo agent reports the campaign=
+ as launched, with zero records analysed, so a caller reading only that rep=
+ly would conclude nothing had gone wrong. An application's own account of i=
+tself is not evidence, and here it is not even accurate.</li><li>The platfo=
+rm writes a denied entry into the access log. That entry is system-generate=
+d, immutable, and exportable to your compliance team. It is the authoritati=
+ve record that the control fired.</li></ul><p>So the thing to look at is th=
+e log, not the app. A denial sitting in an audit trail is a good outcome: i=
+t is your policy working, in the open, where an auditor can see it.</p><p>I=
+t also matters that this denial was triggered deliberately. An empty log pr=
+oves nothing: it might mean your controls work, or that nobody tested them.=
+ Causing the blocked action on purpose and then finding it in the record is=
+ the difference between believing a control works and knowing it does.</p><=
+h3>The checks worth making</h3><ul><li>The promo agent is now in the catalo=
+g with the marketing team named against it, so nothing is running uncatalog=
+ued any more.</li><li>Each agent signs in as itself, and each log line name=
+s exactly one of them.</li><li>The promo agent's attempt to read customer d=
+ata appears in the log as denied.</li><li>The personalization agent and the=
+ price-match co-pilot are still doing their jobs.</li></ul></div></section>=
+<section class=3D"section is-active" data-ctx=3D"5" id=3D"ctxsec5"><div cla=
+ss=3D"sec-head"><h2>What you just did</h2></div><div class=3D"prose"><p>Thr=
+ee fixes, in an order that mattered.</p><p>You registered a hidden workload=
+ in the catalog, so it has a name and an owner. You gave the two agents tha=
+t were sharing a login one identity each, so every action traces to exactly=
+ one of them. And you cut access back to what each job actually needs =E2=
+=80=94 read-only on customer data for the agent that genuinely uses it, non=
+e for the agent that never should have had it.</p><p>Put together, the esta=
+te is now visible, attributable and least-privileged. Every entry in the in=
+ventory has an owner, every grant is sized to a job you can describe, and S=
+ecurity and Compliance can answer the first question anyone asks after an i=
+ncident =E2=80=94 who read this record =E2=80=94 with a name rather than "w=
+e don't know".</p><p>Be careful what you claim beyond that. The promo agent=
+ was not shut down, it is still running, and none of this reduced your clou=
+d spend. You removed the risk, not the workload. Claiming more than you did=
+ is how governance work loses credibility.</p><p>The skill you just practis=
+ed is not typing commands. It is knowing what to ask, and reading what come=
+s back before it becomes permanent =E2=80=94 and, when the assistant does n=
+ot pause on its own, deliberately creating the moment where you look.</p><p=
+>One thing you still cannot answer. You know which agent did something and =
+what data each may touch. You do not yet control which agent may call which=
+ other agent. The Markdown Strategy Agent, sitting on NovaSmart's confident=
+ial cost and margin data, should only ever be reachable by another agent =
+=E2=80=94 never by a customer, never directly by a store associate. Nothing=
+ you have done so far enforces that.</p><p>Controlling who may call whom is=
+ M2 =C2=B7 Control the Connections, and it is where Agent Gateway comes int=
+o the picture.</p></div></section><div class=3D"troubleshoot-footer-banner"=
+ style=3D"margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--=
+border-2); display: flex; align-items: center; justify-content: space-betwe=
+en; gap: 12px; font-size: 12px; color: var(--muted);"><span>Having environm=
+ent or login issues?</span><a style=3D"color: var(--muted); text-decoration=
+: underline; font-weight: 500; display: inline-flex; align-items: center; g=
+ap: 4px;"><span><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentC=
+olor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"=
+><path d=3D"M14.7 6.3a4 4 0 01-5.4 5.4L4 17v3h3l5.3-5.3a4 4 0 015.4-5.4l-2.=
+6 2.6-2-2 2.6-2.6z"></path></svg></span> Troubleshoot &amp; Setup</a></div>=
+</div>
+  </div>
+
+  <aside class=3D"rail-right">
+    <!-- Mission Trophies Card -->
+    <div class=3D"trophy-card lab-card">
+      <div class=3D"trophy-head"><h3><span class=3D"ic" aria-hidden=3D"true=
+" id=3D"labIcon"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"current=
+Color" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round=
+"><path d=3D"M8 4h8v5a4 4 0 01-8 0V4zM8 6H4v2a3 3 0 003 3M16 6h4v2a3 3 0 01=
+-3 3M9 20h6M10 16h4v4h-4z"></path></svg></span> Mission Trophies</h3></div>
+      <div class=3D"module-trophy" id=3D"moduleTrophy"><div class=3D"mt-dis=
+c"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-=
+width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M=
+8 4h8v5a4 4 0 01-8 0V4zM8 6H4v2a3 3 0 003 3M16 6h4v2a3 3 0 01-3 3M9 20h6M10=
+ 16h4v4h-4z"></path></svg></div><div class=3D"mt-meta"><div class=3D"mt-nam=
+e">M1 =E2=80=94 Take Action</div><div class=3D"mt-sub" data-modsub=3D"">Not=
+ yet cleared</div></div></div>
+      <div class=3D"lab-shelf" id=3D"labShelf"><div class=3D"lab-tile earne=
+d" data-mcode=3D"M0" role=3D"button" tabindex=3D"0" aria-label=3D"M0 =C2=B7=
+ See Everything"><span class=3D"lt-disc"><svg viewBox=3D"0 0 24 24" fill=3D=
+"none" stroke=3D"currentColor" stroke-width=3D"2"><rect x=3D"3" y=3D"3" wid=
+th=3D"18" height=3D"18" rx=3D"2"></rect><path d=3D"M3 9h18M9 21V9"></path><=
+/svg></span><span class=3D"lt-code">M0</span></div><div class=3D"lab-tile u=
+nlockable" data-mcode=3D"M1" role=3D"button" tabindex=3D"0" aria-label=3D"M=
+1 =C2=B7 Take Action"><span class=3D"lt-disc"><svg viewBox=3D"0 0 24 24" fi=
+ll=3D"none" stroke=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"ro=
+und" stroke-linejoin=3D"round"><path d=3D"M14.7 6.3a4 4 0 01-5.4 5.4L4 17v3=
+h3l5.3-5.3a4 4 0 015.4-5.4l-2.6 2.6-2-2 2.6-2.6z"></path></svg></span><span=
+ class=3D"lt-code">M1</span></div><div class=3D"lab-tile unlockable" data-m=
+code=3D"M2" role=3D"button" tabindex=3D"0" aria-label=3D"M2 =C2=B7 Control =
+the Connections"><span class=3D"lt-disc"><svg viewBox=3D"0 0 24 24" fill=3D=
+"none" stroke=3D"currentColor" stroke-width=3D"2"><path d=3D"M14 7l-5 5 5 5=
+M10 7l5 5-5 5"></path></svg></span><span class=3D"lt-code">M2</span></div><=
+div class=3D"lab-tile unlockable" data-mcode=3D"M3" role=3D"button" tabinde=
+x=3D"0" aria-label=3D"M3 =C2=B7 Protect the Content"><span class=3D"lt-disc=
+"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-w=
+idth=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M1=
+2 2l7 3v6c0 4.4-3 8.5-7 9-4-.5-7-4.6-7-9V5l7-3z"></path><path d=3D"M9.5 12l=
+1.8 1.8L15 10"></path></svg></span><span class=3D"lt-code">M3</span></div><=
+div class=3D"lab-tile unlockable" data-mcode=3D"M4" role=3D"button" tabinde=
+x=3D"0" aria-label=3D"M4 =C2=B7 Observe the Trajectory"><span class=3D"lt-d=
+isc"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" strok=
+e-width=3D"2" stroke-linecap=3D"round"><circle cx=3D"11" cy=3D"11" r=3D"7">=
+</circle><path d=3D"M21 21l-4-4"></path></svg></span><span class=3D"lt-code=
+">M4</span></div><div class=3D"lab-tile unlockable" data-mcode=3D"M5" role=
+=3D"button" tabindex=3D"0" aria-label=3D"M5 =C2=B7 Evaluate and Decide"><sp=
+an class=3D"lt-disc"><svg viewBox=3D"0 0 24 24" fill=3D"currentColor"><path=
+ d=3D"M13 2 4 14h6l-1 8 9-12h-6l1-8Z"></path></svg></span><span class=3D"lt=
+-code">M5</span></div></div>
+      <div class=3D"grand-badge" id=3D"grandBadge"><div class=3D"gb-disc"><=
+svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-widt=
+h=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M8 4h=
+8v5a4 4 0 01-8 0V4zM8 6H4v2a3 3 0 003 3M16 6h4v2a3 3 0 01-3 3M9 20h6M10 16h=
+4v4h-4z"></path></svg></div><div><div class=3D"gb-name">Estate Secured <spa=
+n class=3D"lk"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentCo=
+lor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round">=
+<rect x=3D"4" y=3D"11" width=3D"16" height=3D"9" rx=3D"2"></rect><path d=3D=
+"M8 11V7a4 4 0 018 0v4"></path></svg></span></div><div class=3D"gb-blurb">C=
+lear all five available missions to secure the NovaSmart AI estate.</div></=
+div></div>
+    </div>
+
+    <!-- Skill Badge Card -->
+    <div class=3D"badge-dual-card" id=3D"badgeDualCard" style=3D"display: n=
+one;">
+      <div class=3D"bd-head">
+        <div class=3D"bd-title-wrap">
+          <span class=3D"bd-main-ic">=F0=9F=8F=85</span>
+          <span class=3D"bd-head-title">Earn Your Badge</span>
+        </div>
+        <span class=3D"cb-status-pill avail" id=3D"dualStatusPill">1 Availa=
+ble</span>
+      </div>
+
+      <div class=3D"bd-grid">
+        <!-- Skill Badge (Google Cloud Skills Badge =C2=B7 partner.skills.g=
+oogle) -->
+        <div class=3D"bd-col bd-col-skill">
+          <div class=3D"bd-col-top">
+            <span class=3D"cb-icon-badge skill-ic" style=3D"width:20px;heig=
+ht:20px;">
+              <svg viewBox=3D"0 0 24 24" fill=3D"currentColor"><path d=3D"M=
+12 2l2.6 6.8L21 11l-6.4 2.2L12 20l-2.6-6.8L3 11l6.4-2.2L12 2Z"></path></svg=
+>
+            </span>
+            <span class=3D"bd-col-badge-name">Skill Badge</span>
+          </div>
+          <div class=3D"bd-col-course">Google Cloud</div>
+          <div class=3D"bd-qr-box" title=3D"Click to enlarge QR code to 260=
+px for easy camera scan">
+            <img src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUgAA=
+AFIAQAAAAAab1qeAAABlElEQVR42u2aSY7EQAgE0fz/z/RoDGR298WUjxNlyfLCKcSSUBV5dwWW=
+WGKJJZaflnGtvG5/X+up//yun7i7/rNlCH9kf4nrCv2B547nuGPOh3prl4XnnudEfVasw/OZf5a=
+PpmIeng/y5xSk6IpG/jzi2fX9+6K+H/B08VSAK9JtwXOVP9NCvVw1O5Hin9t4b//8UqIl8uG5zZ=
+8jOrPVkgkoeO7yp5yxnPX64ZUenhuejtAygMlPeC7900h2ObJHeO70kkJ7RKdUKDzX8W6NUlhNC=
+hV/eG71Z0f7NJ4R+OexXprSnpok+xQUnhs9P4opZ2D3Lj/hueuPQml03LQVKTxPeLZHSnhOaoXn=
+sh7N9ENbHapR8Fzrz7DBvApS7XnQvx/0m2HiXdPkVAKF50Z/ak9Om5xvDRQ8V/2mNZ2jRjNsNgr=
+PnZ4PHQ2RJLVxHTxX9X0GIRnmpz56gueqf5/o/tzcRC89OB9ifWcq/OH5gKc6TJs7wfMkf/psJE=
+zL45+H9b1vtumBXjrXn5w6xhJLLLG8bfkCR7tTNO5nTEMAAAAASUVORK5CYII=3D" alt=3D"Go=
+ogle Cloud Skills Badge QR Code" class=3D"bd-qr-img">
+          </div>
+          <div class=3D"bd-qr-caption" title=3D"Click to enlarge QR code">
+            <svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor=
+" stroke-width=3D"2"><circle cx=3D"11" cy=3D"11" r=3D"8"></circle><line x1=
+=3D"21" y1=3D"21" x2=3D"16.65" y2=3D"16.65"></line><line x1=3D"11" y1=3D"8"=
+ x2=3D"11" y2=3D"14"></line><line x1=3D"8" y1=3D"11" x2=3D"14" y2=3D"11"></=
+line></svg>
+            <span>Click to Enlarge</span>
+          </div>
+          <a class=3D"claim-badge-btn compact gold" href=3D"https://partner=
+.skills.google/course_templates/1879" target=3D"_blank" rel=3D"noopener nor=
+eferrer" title=3D"Claim Google Cloud Skills Badge on Google Skills Boost">
+            <span>Claim =E2=86=97</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<div class=3D"badge-pop" id=3D"badgePop" role=3D"status" aria-live=3D"polit=
+e"><div class=3D"bp-disc"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=
+=3D"currentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejo=
+in=3D"round"><path d=3D"M14.7 6.3a4 4 0 01-5.4 5.4L4 17v3h3l5.3-5.3a4 4 0 0=
+15.4-5.4l-2.6 2.6-2-2 2.6-2.6z"></path></svg></div><div class=3D"bp-meta"><=
+div class=3D"bp-kick"><svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"cu=
+rrentColor" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"=
+round"><circle cx=3D"12" cy=3D"15" r=3D"6"></circle><path d=3D"M12 12v6M9.5=
+ 15h5M8 3l4 6 4-6"></path></svg> Badge unlocked</div><div class=3D"bp-name"=
+>Catalogue and own the shadow agent</div><div class=3D"bp-cheer">Step 2 =C2=
+=B7 Catalogue and own the shadow agent =E2=80=94 done.</div></div></div>
+<div class=3D"toast" id=3D"toast"><span class=3D"tic" aria-hidden=3D"true">=
+<svg viewBox=3D"0 0 24 24" fill=3D"none" stroke=3D"currentColor" stroke-wid=
+th=3D"3" stroke-linecap=3D"round" stroke-linejoin=3D"round"><path d=3D"M20 =
+6 9 17l-5-5"></path></svg></span> <span id=3D"toastText">Copied =E2=80=94 p=
+aste into Antigravity</span></div>
+
+<!-- QR Code Lightbox Modal -->
+<div class=3D"qr-modal-backdrop" id=3D"qrModalBackdrop">
+  <div class=3D"qr-modal-dialog" role=3D"dialog" aria-modal=3D"true" aria-l=
+abelledby=3D"qrModalTitleText">
+    <div class=3D"qr-modal-header">
+      <div class=3D"qr-modal-title" id=3D"qrModalTitle">
+        <span class=3D"cb-icon-badge skill-ic" id=3D"qrModalIcon" style=3D"=
+width:24px;height:24px;">
+          <svg viewBox=3D"0 0 24 24" fill=3D"currentColor"><path d=3D"M12 2=
+l2.6 6.8L21 11l-6.4 2.2L12 20l-2.6-6.8L3 11l6.4-2.2L12 2Z"></path></svg>
+        </span>
+        <span id=3D"qrModalTitleText">Google Cloud Skills Badge</span>
+      </div>
+      <button class=3D"qr-modal-close" aria-label=3D"Close QR Modal">=C3=97=
+</button>
+    </div>
+    <div class=3D"qr-modal-body">
+      <div class=3D"qr-modal-img-wrap">
+        <img id=3D"qrModalImg" src=3D"data:image/png;base64,iVBORw0KGgoAAAA=
+NSUhEUgAAAUgAAAFIAQAAAAAab1qeAAABlElEQVR42u2aSY7EQAgE0fz/z/RoDGR298WUjxNlyf=
+LCKcSSUBV5dwWWWGKJJZaflnGtvG5/X+up//yun7i7/rNlCH9kf4nrCv2B547nuGPOh3prl4Xnn=
+udEfVasw/OZf5aPpmIeng/y5xSk6IpG/jzi2fX9+6K+H/B08VSAK9JtwXOVP9NCvVw1O5Hin9t4=
+b//8UqIl8uG5zZ8jOrPVkgkoeO7yp5yxnPX64ZUenhuejtAygMlPeC7900h2ObJHeO70kkJ7RKd=
+UKDzX8W6NUlhNChV/eG71Z0f7NJ4R+OexXprSnpok+xQUnhs9P4opZ2D3Lj/hueuPQml03LQVKT=
+xPeLZHSnhOaoXnsh7N9ENbHapR8Fzrz7DBvApS7XnQvx/0m2HiXdPkVAKF50Z/ak9Om5xvDRQ8V=
+/2mNZ2jRjNsNgrPnZ4PHQ2RJLVxHTxX9X0GIRnmpz56gueqf5/o/tzcRC89OB9ifWcq/OH5gKc6=
+TJs7wfMkf/psJEzL45+H9b1vtumBXjrXn5w6xhJLLLG8bfkCR7tTNO5nTEMAAAAASUVORK5CYII=
+=3D" alt=3D"QR Code" class=3D"qr-modal-img">
+      </div>
+      <div class=3D"qr-modal-caption">
+        <div class=3D"qr-modal-sub" id=3D"qrModalSub">Course 1879 =C2=B7 Go=
+ogle Skills Boost</div>
+        <div class=3D"qr-modal-hint">Scan with phone camera or click below =
+to claim directly:</div>
+      </div>
+      <a class=3D"claim-badge-btn gold qr-modal-direct-btn" id=3D"qrModalDi=
+rectBtn" href=3D"https://partner.skills.google/course_templates/1879" targe=
+t=3D"_blank" rel=3D"noopener noreferrer" title=3D"Claim directly">
+        <span id=3D"qrModalBtnText">Claim on Google Skills Boost =E2=86=97<=
+/span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body></html>
+------MultipartBoundary--wgVuQ6TqkHq9APqV8pNqxfKQVUsx974YNEBwGcCBk1----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-97b2ad57-9cb0-4bd9-b283-4ba68317cfe0@mhtml.blink
+
+@charset "utf-8";
+
+:root { --blue: #1a73e8; --blue-700: #1967d2; --blue-050: #e8f0fe; --blue-1=
+00: #d2e3fc; --green: #34a853; --green-050: #e6f4ea; --green-100: #b7e1c2; =
+--yellow: #fbbc04; --yellow-050: #fef7e0; --yellow-100: #fde293; --red: #ea=
+4335; --red-050: #fce8e6; --red-100: #f6c7c2; --purple: #7b2cbf; --purple-0=
+50: #f3e8fd; --bg: #f8f9fa; --surface: #ffffff; --surface-2: #f1f3f4; --ink=
+: #202124; --ink-2: #3c4043; --muted: #5f6368; --muted-2: #80868b; --border=
+: #dadce0; --border-2: #e8eaed; --elev-1: 0 1px 2px 0 rgba(60,64,67,.20),0 =
+1px 3px 1px rgba(60,64,67,.08); --elev-2: 0 1px 3px 0 rgba(60,64,67,.20),0 =
+4px 8px 3px rgba(60,64,67,.10); --elev-3: 0 4px 8px 0 rgba(60,64,67,.20),0 =
+8px 20px 6px rgba(60,64,67,.12); --radius: 12px; --radius-sm: 8px; --radius=
+-lg: 18px; --font: 'Google Sans','Product Sans',Roboto,system-ui,-apple-sys=
+tem,'Segoe UI',Helvetica,Arial,sans-serif; --mono: 'Roboto Mono',ui-monospa=
+ce,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; --a=
+ccent: #1a73e8; --accent-ink: #1967d2; --accent-050: #e8f0fe; --accent-bord=
+er: #d2e3fc; }
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0px; padding: 0px; }
+
+body { font-family: var(--font); background: var(--bg); color: var(--ink); =
+font-size: 15px; line-height: 1.55; -webkit-font-smoothing: antialiased; te=
+xt-rendering: optimizelegibility; }
+
+h1, h2, h3, h4 { margin: 0px; font-weight: 500; letter-spacing: -0.01em; }
+
+p { margin: 0px 0px 12px; }
+
+a { color: var(--accent); }
+
+svg { display: block; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; bor=
+der-radius: 4px; }
+
+.topbar { position: sticky; top: 0px; z-index: 40; display: flex; align-ite=
+ms: center; gap: 16px; height: 72px; padding: 0px 26px; background: var(--s=
+urface); border-bottom: 1px solid var(--border); box-shadow: var(--elev-1);=
+ }
+
+.brand { display: flex; align-items: center; gap: 11px; }
+
+.brand .logo { width: 34px; height: 34px; color: var(--accent); flex: 0 0 a=
+uto; }
+
+.brand .logo svg { width: 100%; height: 100%; }
+
+.brand .title { font-size: 18px; font-weight: 500; color: var(--ink); line-=
+height: 1.1; }
+
+.brand .sub { font-size: 12.5px; color: var(--muted); letter-spacing: 0.02e=
+m; }
+
+.topbar .spacer { flex: 1 1 0%; }
+
+.mission-chip { display: inline-flex; align-items: center; gap: 8px; backgr=
+ound: var(--accent-050); color: var(--accent-ink); border: 1px solid var(--=
+accent-border); padding: 6px 13px; border-radius: 999px; font-size: 12.5px;=
+ font-weight: 500; white-space: nowrap; }
+
+.mission-chip .dot { width: 8px; height: 8px; border-radius: 50%; backgroun=
+d: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22=
+%, transparent); }
+
+.switcher { display: inline-flex; align-items: center; gap: 3px; background=
+: var(--surface-2); border: 1px solid var(--border-2); border-radius: 999px=
+; padding: 3px; }
+
+.mtab { appearance: none; border-width: medium; border-style: none; border-=
+color: currentcolor; border-image: none; background: transparent; cursor: p=
+ointer; font-family: var(--font); font-size: 12.5px; font-weight: 500; colo=
+r: var(--muted); padding: 6px 12px; border-radius: 999px; display: inline-f=
+lex; align-items: center; gap: 6px; transition: background 0.15s, color 0.1=
+5s; }
+
+.mtab:hover { color: var(--ink-2); }
+
+.mtab .mt-ic { width: 14px; height: 14px; }
+
+.mtab.active { background: var(--surface); color: var(--accent-ink); box-sh=
+adow: var(--elev-1); }
+
+.mtab .mlock { width: 11px; height: 11px; opacity: 0.6; }
+
+.app { display: grid; grid-template-columns: 272px minmax(0px, 1fr) 304px; =
+grid-template-areas: "nav main score"; gap: 22px; max-width: 1520px; margin=
+: 0px auto; padding: 22px 24px 64px; align-items: start; }
+
+.rail-left { grid-area: nav; position: sticky; top: 94px; display: flex; fl=
+ex-direction: column; gap: 14px; max-height: calc(-106px + 100vh); overflow=
+-y: auto; padding-right: 2px; }
+
+.rail-right { grid-area: score; position: sticky; top: 94px; display: flex;=
+ flex-direction: column; gap: 14px; max-height: calc(-106px + 100vh); overf=
+low-y: auto; padding-right: 2px; }
+
+.main-col { grid-area: main; min-width: 0px; }
+
+.main { min-width: 0px; }
+
+.viewtabs { display: inline-flex; gap: 4px; padding: 4px; margin-bottom: 16=
+px; background: var(--surface-2); border: 1px solid var(--border-2); border=
+-radius: 999px; }
+
+.vtab { appearance: none; border: 0px; cursor: pointer; font-style: inherit=
+; font-variant: inherit; font-stretch: inherit; line-height: inherit; font-=
+family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; f=
+ont-kerning: inherit; font-feature-settings: inherit; font-variation-settin=
+gs: inherit; font-language-override: inherit; display: inline-flex; align-i=
+tems: center; gap: 7px; padding: 8px 18px; border-radius: 999px; background=
+: transparent; font-size: 13.5px; font-weight: 600; color: var(--muted); tr=
+ansition: background-color 0.18s, color 0.18s, box-shadow 0.18s; }
+
+.vtab .ic { width: 15px; height: 15px; display: inline-flex; }
+
+.vtab .ic svg { width: 100%; height: 100%; }
+
+.vtab:hover { color: var(--ink-2); }
+
+.vtab.active { background: var(--surface); color: var(--accent-ink); box-sh=
+adow: var(--elev-1); }
+
+.vtab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px=
+; }
+
+.no-motion .vtab { transition: none; }
+
+.ctxdoc .section { display: block; }
+
+.ctxdoc .sec-head { margin-bottom: 6px; }
+
+.backlink { appearance: none; border: 0px; background: transparent; cursor:=
+ pointer; font-style: inherit; font-variant: inherit; font-stretch: inherit=
+; line-height: inherit; font-family: inherit; font-optical-sizing: inherit;=
+ font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: i=
+nherit; font-variation-settings: inherit; font-language-override: inherit; =
+display: inline-flex; align-items: center; gap: 6px; padding: 6px 0px; colo=
+r: var(--accent-ink); font-size: 13px; font-weight: 600; }
+
+.backlink:hover { text-decoration: underline; }
+
+.backlink:focus-visible { outline: 2px solid var(--accent); outline-offset:=
+ 2px; border-radius: 4px; }
+
+.ctx-hit { animation: 1.4s ease 0s 1 normal none running ctxflash; }
+
+@keyframes ctxflash {=20
+  0%, 32% { background: var(--accent-050); }
+  100% { background: transparent; }
+}
+
+.no-motion .ctx-hit { animation: auto ease 0s 1 normal none running none; }
+
+.nav-card { background: var(--surface); border: 1px solid var(--border-2); =
+border-radius: var(--radius); box-shadow: var(--elev-1); padding: 16px 14px=
+; }
+
+.nav-head { padding: 2px 6px 12px; }
+
+.nav-head .kicker { font-size: 11px; text-transform: uppercase; letter-spac=
+ing: 0.08em; color: var(--muted-2); font-weight: 600; }
+
+.nav-head .h { font-size: 15px; font-weight: 500; color: var(--ink); margin=
+-top: 2px; }
+
+.progress-wrap { padding: 4px 6px 14px; }
+
+.progress-row { display: flex; justify-content: space-between; font-size: 1=
+1.5px; color: var(--muted); margin-bottom: 6px; }
+
+.progress-track { height: 6px; background: var(--surface-2); border-radius:=
+ 99px; overflow: hidden; }
+
+.progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg=
+, var(--accent), color-mix(in srgb, var(--accent) 60%, #ffffff)); border-ra=
+dius: 99px; transition: width 0.6s cubic-bezier(0.2, 0.7, 0.2, 1); }
+
+.steps { list-style: none; margin: 0px; padding: 4px 0px 0px; position: rel=
+ative; }
+
+.step { position: relative; display: flex; align-items: flex-start; gap: 12=
+px; padding: 9px 8px; border-radius: var(--radius-sm); cursor: pointer; use=
+r-select: none; transition: background 0.15s; }
+
+.step:hover { background: var(--surface-2); }
+
+.step.active { background: var(--accent-050); }
+
+.step:not(:last-child)::before { content: ""; position: absolute; left: 21p=
+x; top: 34px; bottom: -1px; width: 2px; background: var(--border-2); }
+
+.step.done:not(:last-child)::before { background: var(--green-100); }
+
+.step .marker { position: relative; z-index: 1; width: 26px; height: 26px; =
+flex: 0 0 auto; border-radius: 50%; display: grid; place-items: center; fon=
+t-size: 12px; font-weight: 600; background: var(--surface); color: var(--mu=
+ted); border: 2px solid var(--border); transition: 0.2s; overflow: hidden; =
+}
+
+.step.active .marker { border-color: var(--accent); color: var(--accent); b=
+ackground: var(--surface); }
+
+.step.done .marker { background: var(--green); border-color: var(--green); =
+color: rgb(255, 255, 255); }
+
+.step.done .marker .num { display: none; }
+
+.step .marker .check { display: none; width: 15px; height: 15px; }
+
+.step.done .marker .check { display: block; }
+
+.step.earned .marker { background: var(--surface); border-color: var(--yell=
+ow); color: rgb(176, 96, 0); box-shadow: inset 0 0 0 2px var(--yellow-050);=
+ }
+
+.step.earned .marker .num, .step.earned .marker .check { display: none; }
+
+.step .marker .medal-ic { display: none; width: 15px; height: 15px; }
+
+.step.earned .marker .medal-ic { display: block; }
+
+.step .label { min-width: 0px; display: flex; flex-direction: column; paddi=
+ng-top: 1px; }
+
+.step .label .t { display: block; font-size: 13.5px; color: var(--ink-2); f=
+ont-weight: 500; line-height: 1.25; }
+
+.step.active .label .t { color: var(--accent-ink); }
+
+.step .label .s { display: block; font-size: 11px; color: var(--muted-2); m=
+argin-top: 1px; }
+
+.trophy-card { background: var(--surface); border: 1px solid var(--border-2=
+); border-radius: var(--radius); box-shadow: var(--elev-1); padding: 13px 1=
+3px 14px; }
+
+.trophy-head { display: flex; align-items: center; justify-content: space-b=
+etween; gap: 8px; margin-bottom: 14px; }
+
+.trophy-head h3 { font-size: 14px; color: var(--ink); display: flex; align-=
+items: center; gap: 8px; }
+
+.trophy-head h3 .ic { width: 17px; height: 17px; color: var(--yellow); }
+
+.trophy-head h3 .ic svg { width: 100%; height: 100%; }
+
+.badge-count { font-size: 11px; font-weight: 700; color: var(--muted); back=
+ground: var(--surface-2); border-radius: 999px; padding: 3px 9px; white-spa=
+ce: nowrap; }
+
+.medal-grid { display: grid; grid-template-columns: repeat(4, minmax(0px, 1=
+fr)); gap: 7px; }
+
+.medallion { position: relative; min-width: 0px; display: flex; flex-direct=
+ion: column; align-items: center; gap: 4px; padding: 7px 3px 6px; border: 1=
+px solid var(--border-2); border-radius: var(--radius-sm); background: var(=
+--surface-2); text-align: center; }
+
+.medallion .disc { width: 28px; height: 28px; border-radius: 50%; display: =
+grid; place-items: center; background: rgb(233, 234, 237); color: var(--mut=
+ed-2); border: 2px solid var(--border); transition: transform 0.25s; }
+
+.medallion .disc svg { width: 14px; height: 14px; }
+
+.medallion .mname { font-size: 8.5px; line-height: 1.15; color: var(--muted=
+-2); font-weight: 600; min-width: 0px; max-width: 100%; overflow: hidden; t=
+ext-overflow: ellipsis; white-space: nowrap; align-self: stretch; }
+
+.medallion.earned { background: var(--yellow-050); border-color: var(--yell=
+ow-100); }
+
+.medallion.earned .disc { background: linear-gradient(150deg, rgb(253, 220,=
+ 120), rgb(246, 183, 60)); color: rgb(122, 75, 0); border-color: rgb(246, 1=
+83, 60); box-shadow: rgba(246, 183, 60, 0.4) 0px 2px 8px; }
+
+.medallion.earned .mname { color: rgb(138, 83, 0); }
+
+.medallion.pop .disc { animation: 0.55s cubic-bezier(0.2, 1.4, 0.4, 1) 0s 1=
+ normal none running medalPop; }
+
+@keyframes medalPop {=20
+  0% { transform: scale(0.4); }
+  60% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+
+.medallion .shine { position: absolute; inset: 0px; border-radius: var(--ra=
+dius-sm); overflow: hidden; pointer-events: none; }
+
+.medallion.pop .shine::after { content: ""; position: absolute; top: 0px; l=
+eft: -60%; width: 40%; height: 100%; background: linear-gradient(105deg, tr=
+ansparent, rgba(255, 255, 255, 0.75), transparent); transform: skewX(-18deg=
+); animation: 0.7s ease 0.05s 1 normal none running shineSweep; }
+
+@keyframes shineSweep {=20
+  0% { left: -60%; }
+  100% { left: 130%; }
+}
+
+.section { display: none; }
+
+.section.is-active { display: block; }
+
+.no-motion .section.is-active { animation: auto ease 0s 1 normal none runni=
+ng none !important; }
+
+.section.is-active { animation: 0.4s cubic-bezier(0.2, 0.7, 0.2, 1) 0s 1 no=
+rmal none running sectionIn; }
+
+@keyframes sectionIn {=20
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: none; }
+}
+
+.section.is-active { background: var(--surface); border: 1px solid var(--bo=
+rder-2); border-radius: var(--radius); box-shadow: var(--elev-1); padding: =
+32px 40px 22px; }
+
+.section .prose { max-width: none; }
+
+.sec-head { margin-bottom: 18px; }
+
+.sec-head .eyebrow { display: inline-flex; align-items: center; gap: 7px; f=
+ont-size: 12px; font-weight: 600; color: var(--accent-ink); background: var=
+(--accent-050); border: 1px solid var(--accent-border); padding: 4px 11px; =
+border-radius: 999px; }
+
+.sec-head .eyebrow.crisis { color: rgb(179, 38, 30); background: var(--red-=
+050); border-color: var(--red-100); }
+
+.sec-head .eyebrow.success { color: rgb(19, 115, 51); background: var(--gre=
+en-050); border-color: var(--green-100); }
+
+.sec-head h2 { font-size: 27px; margin-top: 12px; color: var(--ink); font-w=
+eight: 500; letter-spacing: -0.02em; }
+
+.sec-head .lede { font-size: 15.5px; color: var(--muted); max-width: 68ch; =
+margin-top: 8px; }
+
+.card { background: var(--surface); border: 1px solid var(--border-2); bord=
+er-radius: var(--radius); box-shadow: var(--elev-1); padding: 22px 24px; ma=
+rgin-bottom: 18px; }
+
+.card > h3 { font-size: 17px; color: var(--ink); margin-bottom: 4px; displa=
+y: flex; align-items: center; gap: 9px; }
+
+.card > h3 .ic { width: 20px; height: 20px; color: var(--accent); flex: 0 0=
+ auto; }
+
+.card > h3 .ic svg { width: 100%; height: 100%; }
+
+.card p { color: var(--ink-2); }
+
+.card p:last-child { margin-bottom: 0px; }
+
+.prose { color: var(--ink-2); font-size: 15px; line-height: 1.65; margin: 0=
+px 0px 20px; max-width: 74ch; }
+
+.prose > :first-child { margin-top: 0px; }
+
+.prose > :last-child { margin-bottom: 0px; }
+
+.prose h3 { font-size: 17px; font-weight: 600; color: var(--ink); margin: 2=
+8px 0px 8px; letter-spacing: -0.01em; }
+
+.prose h4 { font-size: 14.5px; font-weight: 600; color: var(--ink); margin:=
+ 18px 0px 6px; }
+
+.prose p { margin: 0px 0px 13px; }
+
+.prose ul, .prose ol { margin: 0px 0px 13px; padding-left: 22px; }
+
+.prose li { margin: 0px 0px 7px; }
+
+.prose li::marker { color: var(--muted-2); }
+
+.prose strong { color: var(--ink); font-weight: 600; }
+
+.prose em { font-style: italic; }
+
+.prose a { color: var(--accent); }
+
+.prose blockquote { margin: 4px 0px 16px; padding: 11px 16px; border-left: =
+3px solid var(--border); background: var(--surface-2); border-radius: 0 var=
+(--radius-sm) var(--radius-sm) 0; color: var(--ink-2); font-style: italic; =
+}
+
+.prose blockquote p { margin: 0px; }
+
+.prose code { font-family: var(--mono); font-size: 12.5px; background: var(=
+--surface-2); padding: 1px 5px; border-radius: 4px; }
+
+.callout { border-radius: var(--radius); padding: 16px 18px; display: flex;=
+ gap: 13px; align-items: flex-start; margin-bottom: 18px; border: 1px solid=
+; }
+
+.callout .ic { width: 22px; height: 22px; flex: 0 0 auto; margin-top: 1px; =
+}
+
+.callout .ic svg { width: 100%; height: 100%; }
+
+.callout.warn { background: var(--yellow-050); border-color: var(--yellow-1=
+00); }
+
+.callout.warn .ic { color: rgb(176, 96, 0); }
+
+.callout.warn strong { color: rgb(138, 83, 0); }
+
+.callout.info { background: var(--blue-050); border-color: var(--blue-100);=
+ }
+
+.callout.info .ic { color: var(--blue-700); }
+
+.callout.good { background: var(--green-050); border-color: var(--green-100=
+); }
+
+.callout.good .ic { color: var(--green); }
+
+.callout .body { font-size: 14px; color: var(--ink-2); }
+
+.callout .body strong { color: var(--ink); }
+
+.prompt-card { position: relative; background: var(--surface-2); border: 1p=
+x solid var(--border-2); border-radius: var(--radius-sm); padding: 13px 52p=
+x 14px 16px; transition: box-shadow 0.15s, border-color 0.15s; }
+
+.prompt-card:hover { border-color: rgb(199, 203, 209); box-shadow: var(--el=
+ev-1); }
+
+.prompt-meta { display: flex; align-items: center; gap: 7px; font-size: 10.=
+5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; c=
+olor: var(--muted-2); margin-bottom: 6px; }
+
+.prompt-meta .ag { display: inline-flex; align-items: center; gap: 5px; col=
+or: var(--accent-ink); }
+
+.prompt-meta .ag svg { width: 13px; height: 13px; }
+
+.prompt-text { font-family: var(--mono); font-size: 13px; line-height: 1.5;=
+ color: var(--ink); white-space: pre-wrap; word-break: break-word; }
+
+.prompt-text::before { content: "=E2=80=9C"; color: var(--muted-2); }
+
+.prompt-text::after { content: "=E2=80=9D"; color: var(--muted-2); }
+
+.copy-btn { position: absolute; top: 10px; right: 10px; width: 34px; height=
+: 34px; border-radius: var(--radius-sm); border: 1px solid var(--border); b=
+ackground: var(--surface); display: grid; place-items: center; cursor: poin=
+ter; color: var(--muted); transition: 0.15s; }
+
+.copy-btn:hover { color: var(--accent); border-color: var(--accent-border);=
+ background: var(--accent-050); }
+
+.copy-btn:active { transform: scale(0.92); }
+
+.copy-btn svg { width: 17px; height: 17px; }
+
+.copy-btn .ok { display: none; color: var(--green); }
+
+.copy-btn.copied { color: var(--green); border-color: var(--green-100); bac=
+kground: var(--green-050); }
+
+.copy-btn.copied .cp { display: none; }
+
+.copy-btn.copied .ok { display: block; }
+
+.plan { background: rgb(11, 16, 32); color: rgb(230, 232, 238); border-radi=
+us: var(--radius); overflow: hidden; border: 1px solid rgb(28, 36, 64); box=
+-shadow: var(--elev-2); font-family: var(--mono); font-size: 12.5px; margin=
+-bottom: 18px; position: relative; }
+
+.table-wrap table { width: max-content; min-width: 100%; }
+
+.table-wrap { border: 1px solid var(--border-2); border-radius: var(--radiu=
+s); overflow: auto hidden; box-shadow: var(--elev-1); background: var(--sur=
+face); margin-bottom: 18px; }
+
+.table-bar { display: flex; align-items: center; gap: 9px; padding: 11px 16=
+px; background: var(--surface); border-bottom: 1px solid var(--border-2); f=
+ont-size: 12.5px; color: var(--muted); }
+
+.table-bar .ic { width: 16px; height: 16px; color: var(--muted); flex: 0 0 =
+auto; }
+
+.table-bar .ic svg { width: 100%; height: 100%; }
+
+.table-bar b { color: var(--ink-2); font-weight: 600; }
+
+.table-scroll { overflow-x: auto; }
+
+table.log { width: 100%; border-collapse: collapse; font-size: 13px; }
+
+table.log th { text-align: left; font-size: 11px; text-transform: uppercase=
+; letter-spacing: 0.05em; color: var(--muted-2); font-weight: 600; padding:=
+ 10px 14px; background: var(--surface-2); border-bottom: 1px solid var(--bo=
+rder-2); white-space: normal; text-wrap-style: balance; }
+
+table.log td { padding: 10px 14px; border-bottom: 1px solid var(--border-2)=
+; color: var(--ink-2); vertical-align: middle; }
+
+table.log tr:last-child td { border-bottom-width: medium; border-bottom-sty=
+le: none; border-bottom-color: currentcolor; }
+
+table.log tbody tr:hover { background: rgb(250, 251, 252); }
+
+table.log .mono { font-family: var(--mono); font-size: 12px; color: var(--m=
+uted); }
+
+table.log tr.flag td { background: var(--red-050); }
+
+table.log tr.deny td { background: var(--red-050); }
+
+.msg { opacity: 0; transform: translateY(14px); animation: 0.5s cubic-bezie=
+r(0.2, 0.7, 0.2, 1) 0s 1 normal forwards running msgIn; }
+
+.msg.d2 { animation-delay: 0.3s; }
+
+@keyframes msgIn {=20
+  100% { opacity: 1; transform: none; }
+}
+
+.no-motion .msg { opacity: 1; transform: none; animation: auto ease 0s 1 no=
+rmal none running none; }
+
+.slack { background: var(--surface); border: 1px solid var(--border-2); bor=
+der-radius: var(--radius); box-shadow: var(--elev-1); padding: 14px 16px 15=
+px; }
+
+.email { background: var(--surface); border: 1px solid var(--border-2); bor=
+der-radius: var(--radius); box-shadow: var(--elev-1); overflow: hidden; }
+
+.decision { display: flex; gap: 15px; padding: 16px 0px; border-bottom: 1px=
+ solid var(--border-2); }
+
+.decision:first-child { padding-top: 0px; }
+
+.decision:last-child { border-bottom-width: medium; border-bottom-style: no=
+ne; border-bottom-color: currentcolor; padding-bottom: 0px; }
+
+.decision .n { width: 30px; height: 30px; flex: 0 0 auto; border-radius: 50=
+%; background: var(--accent-050); color: var(--accent-ink); display: grid; =
+place-items: center; font-weight: 700; font-size: 14px; }
+
+.decision h4 { font-size: 15px; margin-bottom: 3px; }
+
+.decision p { font-size: 13.5px; color: var(--muted); margin: 0px; }
+
+.cast { display: grid; gap: 10px; }
+
+.delta { display: inline-flex; align-items: center; gap: 3px; font-size: 11=
+px; font-weight: 700; margin-left: 6px; }
+
+.delta.up { color: var(--green); }
+
+.delta.down { color: var(--red); }
+
+.placeholder-hero { text-align: center; padding: 30px 20px; border: 1px das=
+hed var(--border); border-radius: var(--radius); background: var(--surface)=
+; margin-bottom: 18px; }
+
+.placeholder-hero .ph-ic { width: 54px; height: 54px; margin: 0px auto 14px=
+; border-radius: 16px; display: grid; place-items: center; background: var(=
+--accent-050); color: var(--accent-ink); }
+
+.placeholder-hero .ph-ic svg { width: 28px; height: 28px; }
+
+.placeholder-hero .ph-lock { display: inline-flex; align-items: center; gap=
+: 6px; font-size: 11.5px; font-weight: 600; color: var(--muted); background=
+: var(--surface-2); border-radius: 999px; padding: 4px 11px; margin-top: 10=
+px; }
+
+.placeholder-hero .ph-lock svg { width: 13px; height: 13px; }
+
+.lab-card .trophy-head h3 .ic { color: var(--yellow); }
+
+.module-trophy { display: flex; align-items: center; gap: 10px; padding: 9p=
+x 10px; border-radius: var(--radius-sm); border: 1px solid var(--border-2);=
+ background: var(--surface-2); margin-bottom: 11px; }
+
+.module-trophy .mt-disc { width: 36px; height: 36px; flex: 0 0 auto; border=
+-radius: 10px; display: grid; place-items: center; background: rgb(233, 234=
+, 237); color: var(--muted-2); border: 2px solid var(--border); }
+
+.module-trophy .mt-disc svg { width: 18px; height: 18px; }
+
+.module-trophy.earned .mt-disc { background: linear-gradient(150deg, rgb(25=
+3, 220, 120), rgb(246, 183, 60)); color: rgb(122, 75, 0); border-color: rgb=
+(246, 183, 60); box-shadow: rgba(246, 183, 60, 0.45) 0px 3px 10px; }
+
+.module-trophy .mt-meta .mt-name { font-size: 13px; font-weight: 600; color=
+: var(--ink); }
+
+.module-trophy .mt-meta .mt-sub { font-size: 11.5px; color: var(--muted); m=
+argin-top: 2px; }
+
+.module-trophy.earned .mt-meta .mt-sub { color: rgb(19, 115, 51); }
+
+.lab-shelf { display: grid; grid-template-columns: repeat(3, minmax(0px, 1f=
+r)); gap: 6px; margin-bottom: 12px; }
+
+.lab-tile { position: relative; min-width: 0px; display: flex; flex-directi=
+on: column; align-items: center; gap: 5px; padding: 10px 3px 8px; border: 1=
+px solid var(--border-2); border-radius: var(--radius-sm); background: var(=
+--surface-2); text-align: center; }
+
+.lab-tile .lt-disc { width: 32px; height: 32px; border-radius: 50%; display=
+: grid; place-items: center; background: rgb(233, 234, 237); color: var(--m=
+uted-2); border: 2px solid var(--border); filter: grayscale(1); }
+
+.lab-tile .lt-disc svg { width: 16px; height: 16px; }
+
+.lab-tile .lt-code { font-size: 10px; font-weight: 700; color: var(--muted-=
+2); }
+
+.lab-tile .lt-lock { position: absolute; top: 5px; right: 5px; width: 12px;=
+ height: 12px; color: var(--muted-2); }
+
+.lab-tile.unlockable .lt-disc { filter: none; background: var(--accent-050)=
+; color: var(--accent-ink); border-color: var(--accent-border); }
+
+.lab-tile.unlockable .lt-code { color: var(--accent-ink); }
+
+.lab-tile.earned .lt-disc { filter: none; background: linear-gradient(150de=
+g, rgb(253, 220, 120), rgb(246, 183, 60)); color: rgb(122, 75, 0); border-c=
+olor: rgb(246, 183, 60); box-shadow: rgba(246, 183, 60, 0.4) 0px 2px 8px; }
+
+.lab-tile.earned .lt-code { color: rgb(138, 83, 0); }
+
+.grand-badge { display: flex; align-items: center; gap: 11px; padding: 11px=
+ 13px; border-radius: var(--radius-sm); border: 1px dashed var(--border); b=
+ackground: var(--surface); }
+
+.grand-badge .gb-disc { width: 38px; height: 38px; flex: 0 0 auto; border-r=
+adius: 50%; display: grid; place-items: center; background: rgb(236, 238, 2=
+41); color: var(--muted-2); border: 2px solid var(--border); }
+
+.grand-badge .gb-disc svg { width: 19px; height: 19px; }
+
+.grand-badge.earned .gb-disc { background: linear-gradient(150deg, rgb(253,=
+ 220, 120), rgb(246, 183, 60)); color: rgb(122, 75, 0); border-color: rgb(2=
+46, 183, 60); }
+
+.grand-badge .gb-name { font-size: 12.5px; font-weight: 700; color: var(--i=
+nk-2); display: flex; align-items: center; gap: 6px; }
+
+.grand-badge .gb-name .lk { width: 12px; height: 12px; color: var(--muted-2=
+); }
+
+.grand-badge .gb-blurb { font-size: 11px; color: var(--muted); margin-top: =
+2px; }
+
+.main-footer { display: flex; align-items: center; gap: 14px; margin-top: 8=
+px; padding-top: 4px; }
+
+.btn { font-family: var(--font); font-size: 14px; font-weight: 500; padding=
+: 10px 20px; border-radius: 999px; cursor: pointer; border: 1px solid var(-=
+-border); background: var(--surface); color: var(--ink-2); display: inline-=
+flex; align-items: center; gap: 8px; transition: 0.15s; }
+
+.btn:hover { background: var(--surface-2); box-shadow: var(--elev-1); }
+
+.btn svg { width: 16px; height: 16px; }
+
+.btn.primary { background: var(--accent); color: rgb(255, 255, 255); border=
+-color: var(--accent); }
+
+.btn.primary:hover { background: var(--accent-ink); box-shadow: var(--elev-=
+2); }
+
+.btn:disabled { opacity: 0.4; cursor: not-allowed; box-shadow: none; }
+
+.main-footer .fspacer { flex: 1 1 0%; }
+
+.footer-count { font-size: 12.5px; color: var(--muted); }
+
+.toast { position: fixed; bottom: 26px; left: 50%; transform: translateX(-5=
+0%) translateY(20px); background: rgb(32, 33, 36); color: rgb(255, 255, 255=
+); font-size: 13.5px; font-weight: 500; padding: 12px 20px; border-radius: =
+10px; box-shadow: var(--elev-3); display: flex; align-items: center; gap: 9=
+px; opacity: 0; pointer-events: none; transition: opacity 0.25s, transform =
+0.25s; z-index: 90; }
+
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0px); }
+
+.toast .tic { width: 17px; height: 17px; color: rgb(129, 201, 149); }
+
+.toast .tic svg { width: 100%; height: 100%; }
+
+.no-motion .toast { transition: opacity 0.01s; }
+
+.badge-pop { position: fixed; top: 74px; left: 50%; transform: translateX(-=
+50%) translateY(-16px) scale(0.96); z-index: 95; display: flex; align-items=
+: center; gap: 13px; background: var(--surface); border-top-color: ; border=
+-top-style: ; border-top-width: ; border-right-color: ; border-right-style:=
+ ; border-right-width: ; border-bottom-color: ; border-bottom-style: ; bord=
+er-bottom-width: ; border-image-source: ; border-image-slice: ; border-imag=
+e-width: ; border-image-outset: ; border-image-repeat: ; border-left: 4px s=
+olid var(--yellow); border-radius: var(--radius); box-shadow: var(--elev-3)=
+; padding: 13px 18px 13px 15px; min-width: 280px; max-width: 380px; opacity=
+: 0; pointer-events: none; transition: opacity 0.3s, transform 0.35s cubic-=
+bezier(0.2, 1.3, 0.4, 1); }
+
+.badge-pop.show { opacity: 1; transform: translateX(-50%) translateY(0px) s=
+cale(1); }
+
+.badge-pop .bp-disc { width: 46px; height: 46px; flex: 0 0 auto; border-rad=
+ius: 50%; display: grid; place-items: center; background: linear-gradient(1=
+50deg, rgb(253, 220, 120), rgb(246, 183, 60)); color: rgb(122, 75, 0); bord=
+er: 2px solid rgb(246, 183, 60); box-shadow: rgba(246, 183, 60, 0.5) 0px 3p=
+x 10px; position: relative; overflow: hidden; }
+
+.badge-pop .bp-disc svg { width: 24px; height: 24px; }
+
+.badge-pop.show .bp-disc { animation: 0.6s cubic-bezier(0.2, 1.4, 0.4, 1) 0=
+s 1 normal none running medalPop; }
+
+.badge-pop .bp-disc::after { content: ""; position: absolute; top: 0px; lef=
+t: -60%; width: 45%; height: 100%; background: linear-gradient(105deg, tran=
+sparent, rgba(255, 255, 255, 0.8), transparent); transform: skewX(-18deg); =
+}
+
+.badge-pop.show .bp-disc::after { animation: 0.8s ease 0.1s 1 normal none r=
+unning shineSweep; }
+
+.badge-pop .bp-meta { min-width: 0px; }
+
+.badge-pop .bp-kick { font-size: 10px; font-weight: 700; text-transform: up=
+percase; letter-spacing: 0.07em; color: rgb(176, 96, 0); display: flex; ali=
+gn-items: center; gap: 6px; }
+
+.badge-pop .bp-kick svg { width: 12px; height: 12px; }
+
+.badge-pop .bp-name { font-size: 15px; font-weight: 600; color: var(--ink);=
+ margin-top: 2px; }
+
+.badge-pop .bp-cheer { font-size: 12.5px; color: var(--muted); margin-top: =
+2px; }
+
+.badge-pop.module { border-top-color: ; border-right-color: ; border-bottom=
+-color: ; border-left-color: var(--green); }
+
+.badge-pop.module .bp-kick { color: rgb(19, 115, 51); }
+
+.no-motion .badge-pop { transition: opacity 0.12s; }
+
+.no-motion .badge-pop.show .bp-disc, .no-motion .badge-pop.show .bp-disc::a=
+fter, .no-motion .medallion.pop .disc, .no-motion .medallion.pop .shine::af=
+ter { animation: auto ease 0s 1 normal none running none; }
+
+@media (max-width: 1200px) {
+  .app { grid-template-columns: 224px minmax(0px, 1fr) 268px; gap: 16px; }
+  .medal-grid { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+}
+
+@media (max-width: 1024px) {
+  .app { grid-template-columns: 1fr; grid-template-areas: "nav" "score" "ma=
+in"; }
+  .rail-left, .rail-right { position: static; }
+  .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2px; =
+}
+  .step:not(:last-child)::before { display: none; }
+  .switcher { flex-wrap: wrap; }
+  .topbar { flex-wrap: wrap; height: auto; padding: 10px 16px; }
+}
+
+@media (max-width: 680px) {
+  .lab-shelf { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { animation-duration: 0.001ms !important; animation-=
+iteration-count: 1 !important; transition-duration: 0.001ms !important; scr=
+oll-behavior: auto !important; }
+}
+
+.prose .module-subtitle { font-size: 12.5px; font-weight: 600; letter-spaci=
+ng: 0.04em; text-transform: uppercase; color: var(--muted); margin: -2px 0p=
+x 14px; }
+
+.prose > img { display: block; max-width: 100%; height: auto; margin: 2px 0=
+px 16px; border: 1px solid var(--border-2); border-radius: var(--radius-sm)=
+; background: var(--surface); }
+
+.prose p img, .prose li img { display: inline-block; vertical-align: text-b=
+ottom; max-height: 1.45em; width: auto; margin: 0px 2px; border: 0px; borde=
+r-radius: 0px; }
+
+.prose .callout .body > img { display: block; max-width: 100%; max-height: =
+none; height: auto; margin: 10px 0px 2px; border: 1px solid rgba(60, 64, 67=
+, 0.18); border-radius: var(--radius-sm); background: var(--surface); }
+
+.prose > br { display: none; }
+
+.prose pre.code { font-family: var(--mono); font-size: 12.5px; line-height:=
+ 1.55; background: var(--surface-2); border: 1px solid var(--border-2); bor=
+der-radius: var(--radius-sm); padding: 11px 14px; margin: 0px 0px 14px; ove=
+rflow-x: auto; white-space: pre; color: var(--ink-2); }
+
+.prose pre.code code { background: none; padding: 0px; font-size: inherit; =
+}
+
+.prose table { width: 100%; border-collapse: collapse; font-size: 13.5px; m=
+argin: 0px 0px 16px; border: 1px solid var(--border-2); border-radius: var(=
+--radius); overflow: hidden; }
+
+.prose thead th { text-align: left; font-size: 11px; text-transform: upperc=
+ase; letter-spacing: 0.05em; color: var(--muted-2); font-weight: 600; paddi=
+ng: 10px 14px; background: var(--surface-2); border-bottom: 1px solid var(-=
+-border-2); }
+
+.prose tbody td { padding: 10px 14px; border-bottom: 1px solid var(--border=
+-2); color: var(--ink-2); vertical-align: top; }
+
+.prose tbody tr:last-child td { border-bottom-width: medium; border-bottom-=
+style: none; border-bottom-color: currentcolor; }
+
+.prose li > .callout { margin: 9px 0px 4px; }
+
+.prose li > pre.code { margin: 9px 0px 4px; }
+
+.prose ol > li { margin-bottom: 11px; }
+
+.prose .sec-anchor { scroll-margin-top: 104px; }
+
+.prose h4.sec-anchor { font-size: 17px; font-weight: 600; color: var(--ink)=
+; margin: 30px 0px 10px; }
+
+.prose h4.sec-anchor.first { margin-top: 4px; }
+
+.prose figure.fig { margin: 22px 0px; }
+
+.prose figure.fig img.figimg { display: block; width: 100%; height: auto; m=
+ax-width: 100%; border: 1px solid var(--border-2); border-radius: var(--rad=
+ius); background: var(--surface-2); }
+
+.prose figure.fig img.figimg:not([src]) { aspect-ratio: 1120 / 625; }
+
+.prose figure.fig img.figimg[data-loading] { opacity: 0; }
+
+.prose figure.fig img.figimg[src] { animation: 0.22s ease-out 0s 1 normal b=
+oth running figFade; }
+
+@keyframes figFade {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.no-motion .prose figure.fig img.figimg[src] { animation: auto ease 0s 1 no=
+rmal none running none; }
+
+@media (max-width: 900px) {
+  .prose figure.fig { margin: 16px 0px; }
+}
+
+.lab-tile { cursor: pointer; }
+
+.lab-tile:focus-visible { outline: 2px solid var(--accent); outline-offset:=
+ 2px; }
+
+.prose h3.optional-head { margin-top: 34px; padding-top: 20px; border-top: =
+1px dashed var(--line, #d6dae2); font-size: 15px; letter-spacing: 0.01em; c=
+olor: var(--muted, #5b6472); }
+
+.prose h3.optional-head::before { content: "OPTIONAL"; display: block; font=
+-size: 10.5px; font-weight: 700; letter-spacing: 0.1em; color: var(--muted,=
+ #78808f); margin-bottom: 6px; }
+
+.prose h3.optional-head ~ * { opacity: 0.92; }
+
+.prose h3.optional-head ~ p { color: var(--muted, #4d5561); }
+
+.prose h3.optional-head ~ .prompt-card { opacity: 1; }
+
+@media (max-width: 900px) {
+  .prose h3.optional-head { margin-top: 26px; }
+}
+
+.rail-left .trophy-card { margin-top: 0px; padding: 12px 12px 14px; }
+
+.rail-left .trophy-head h3 { font-size: 13px; }
+
+.rail-left .medal-grid { grid-template-columns: repeat(4, minmax(0px, 1fr))=
+; gap: 6px; }
+
+.rail-left .medallion { padding: 6px 2px 5px; }
+
+.rail-left .medallion .disc { width: 26px; height: 26px; }
+
+.rail-left .medallion .disc svg { width: 13px; height: 13px; }
+
+.rail-left .medallion .mname { font-size: 8px; }
+
+.badge-dual-card { margin-top: 0px; padding: 12px; border-radius: var(--rad=
+ius-sm); background: var(--surface); border: 1px solid var(--border); displ=
+ay: flex; flex-direction: column; gap: 8px; transition: 0.25s; }
+
+.badge-dual-card:hover { border-color: rgb(194, 231, 255); box-shadow: rgba=
+(26, 115, 232, 0.14) 0px 2px 10px; }
+
+.badge-dual-card.all-cleared { border: 1.5px solid rgb(246, 183, 60); backg=
+round: linear-gradient(155deg, rgb(255, 255, 255) 0%, rgb(254, 247, 224) 10=
+0%); box-shadow: rgba(246, 183, 60, 0.28) 0px 4px 14px; }
+
+.bd-head { display: flex; align-items: center; justify-content: space-betwe=
+en; gap: 6px; padding-bottom: 4px; border-bottom: 1px solid var(--border-2,=
+ #f1f3f4); }
+
+.bd-title-wrap { display: flex; align-items: center; gap: 6px; }
+
+.bd-main-ic { font-size: 14px; }
+
+.bd-head-title { font-size: 12px; font-weight: 700; color: var(--ink); }
+
+.bd-grid { display: grid; grid-template-columns: 1fr; gap: 8px; align-items=
+: stretch; }
+
+.bd-col { display: flex; flex-direction: column; align-items: center; text-=
+align: center; background: rgb(248, 250, 253); border: 1px solid var(--bord=
+er); border-radius: var(--radius-sm); padding: 8px 6px; gap: 5px; }
+
+.bd-col.bd-col-skill { background: rgb(255, 253, 246); border-color: rgb(25=
+2, 232, 178); }
+
+.bd-col-top { display: flex; align-items: center; gap: 4px; }
+
+.bd-col-badge-name { font-size: 11px; font-weight: 700; color: var(--ink); =
+}
+
+.bd-col-course { font-size: 9.5px; font-weight: 600; color: rgb(26, 115, 23=
+2); background: rgb(232, 240, 254); padding: 1px 5px; border-radius: 4px; }
+
+.bd-col-blurb { font-size: 9.5px; color: var(--muted); line-height: 1.25; f=
+lex-grow: 1; display: flex; align-items: center; }
+
+.cb-icon-badge { width: 24px; height: 24px; border-radius: 50%; display: gr=
+id; place-items: center; background: linear-gradient(145deg, rgb(232, 240, =
+254), rgb(210, 227, 252)); color: rgb(26, 115, 232); flex-shrink: 0; }
+
+.cb-icon-badge svg { width: 14px; height: 14px; }
+
+.cb-icon-badge.skill-ic { background: linear-gradient(145deg, rgb(254, 247,=
+ 224), rgb(253, 226, 147)); color: rgb(176, 96, 0); }
+
+.cb-status-pill { font-size: 10px; font-weight: 700; padding: 2px 7px; bord=
+er-radius: 999px; white-space: nowrap; }
+
+.cb-status-pill.avail { background: rgb(230, 244, 234); color: rgb(19, 115,=
+ 51); border: 1px solid rgb(183, 225, 194); }
+
+.cb-status-pill.earned { background: rgb(254, 247, 224); color: rgb(176, 96=
+, 0); border: 1px solid rgb(253, 226, 147); }
+
+.claim-badge-btn { display: inline-flex; align-items: center; justify-conte=
+nt: center; gap: 7px; width: 100%; padding: 8px 12px; border-radius: var(--=
+radius-sm); font-size: 12px; font-weight: 600; text-decoration: none; box-s=
+izing: border-box; background: linear-gradient(135deg, rgb(26, 115, 232), r=
+gb(21, 87, 176)); color: rgb(255, 255, 255); border: 1px solid rgb(26, 115,=
+ 232); box-shadow: rgba(26, 115, 232, 0.3) 0px 1.5px 5px; cursor: pointer; =
+transition: 0.2s; }
+
+.claim-badge-btn:hover { background: linear-gradient(135deg, rgb(23, 101, 2=
+01), rgb(13, 71, 161)); box-shadow: rgba(26, 115, 232, 0.45) 0px 3px 10px; =
+transform: translateY(-1px); }
+
+.claim-badge-btn:active { transform: translateY(0px); }
+
+.claim-badge-btn.gold { background: linear-gradient(135deg, rgb(249, 171, 0=
+), rgb(227, 116, 0)); border-color: rgb(227, 116, 0); color: rgb(255, 255, =
+255); box-shadow: rgba(227, 116, 0, 0.3) 0px 1.5px 5px; }
+
+.claim-badge-btn.gold:hover { background: linear-gradient(135deg, rgb(242, =
+153, 0), rgb(213, 106, 0)); box-shadow: rgba(227, 116, 0, 0.45) 0px 3px 10p=
+x; }
+
+.claim-badge-btn.compact { padding: 5px 8px; font-size: 11px; font-weight: =
+600; gap: 4px; margin-top: auto; width: 100%; box-sizing: border-box; }
+
+.bd-qr-box { background: rgb(255, 255, 255); border: 1px solid rgb(218, 220=
+, 224); border-radius: 6px; padding: 4px; display: grid; place-items: cente=
+r; cursor: pointer; transition: 0.2s; }
+
+.bd-qr-box:hover { border-color: rgb(26, 115, 232); box-shadow: rgba(26, 11=
+5, 232, 0.2) 0px 2px 8px; transform: scale(1.02); }
+
+.bd-qr-img { width: 104px; height: 104px; display: block; object-fit: conta=
+in; }
+
+.bd-qr-caption { font-size: 9px; font-weight: 600; color: rgb(26, 115, 232)=
+; display: flex; align-items: center; gap: 3px; cursor: pointer; padding: 1=
+px 4px; border-radius: 4px; transition: background 0.15s; }
+
+.bd-qr-caption:hover { background: rgb(232, 240, 254); text-decoration: und=
+erline; }
+
+.bd-qr-caption svg { width: 11px; height: 11px; }
+
+.qr-modal-backdrop { position: fixed; inset: 0px; background: rgba(15, 23, =
+42, 0.72); backdrop-filter: blur(4px); z-index: 9999; display: flex; align-=
+items: center; justify-content: center; opacity: 0; pointer-events: none; t=
+ransition: opacity 0.2s; }
+
+.qr-modal-backdrop.open { opacity: 1; pointer-events: auto; }
+
+.qr-modal-dialog { background: rgb(255, 255, 255); border-radius: 14px; box=
+-shadow: rgba(0, 0, 0, 0.35) 0px 20px 40px; width: 90%; max-width: 360px; p=
+adding: 18px 20px 20px; display: flex; flex-direction: column; gap: 14px; t=
+ransform: scale(0.94); transition: transform 0.2s cubic-bezier(0.2, 1.2, 0.=
+4, 1); }
+
+.qr-modal-backdrop.open .qr-modal-dialog { transform: scale(1); }
+
+.qr-modal-header { display: flex; align-items: center; justify-content: spa=
+ce-between; }
+
+.qr-modal-title { font-size: 14px; font-weight: 700; color: rgb(32, 33, 36)=
+; display: flex; align-items: center; gap: 8px; }
+
+.qr-modal-close { background: transparent; border-width: medium; border-sty=
+le: none; border-color: currentcolor; border-image: none; font-size: 24px; =
+line-height: 1; color: rgb(95, 99, 104); cursor: pointer; padding: 4px; bor=
+der-radius: 6px; transition: 0.15s; }
+
+.qr-modal-close:hover { background: rgb(241, 243, 244); color: rgb(32, 33, =
+36); }
+
+.qr-modal-body { display: flex; flex-direction: column; align-items: center=
+; gap: 12px; }
+
+.qr-modal-img-wrap { background: rgb(255, 255, 255); border: 1.5px solid rg=
+b(218, 220, 224); border-radius: 10px; padding: 10px; box-shadow: rgba(0, 0=
+, 0, 0.08) 0px 4px 16px; }
+
+.qr-modal-img { width: 260px; height: 260px; display: block; object-fit: co=
+ntain; }
+
+.qr-modal-caption { text-align: center; }
+
+.qr-modal-sub { font-size: 12px; font-weight: 600; color: rgb(32, 33, 36); =
+}
+
+.qr-modal-hint { font-size: 11px; color: rgb(95, 99, 104); margin-top: 3px;=
+ }
+
+.qr-modal-direct-btn { width: 100%; }
+------MultipartBoundary--wgVuQ6TqkHq9APqV8pNqxfKQVUsx974YNEBwGcCBk1------
